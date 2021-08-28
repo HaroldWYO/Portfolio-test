@@ -1,0 +1,210 @@
+/*For Desktop and Tablets*/
+@media only screen AND (min-width: 600px){
+
+body{
+    padding-top: 0px;
+    width: 99%;
+}
+
+header{
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.titre{
+    font-family: monospace;
+}
+
+.nav a{
+    font-family: monospace;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+.nav a:active{
+    text-decoration: underline;
+    color: white;
+}
+
+.nav a:hover{
+    color: whitesmoke;
+}
+
+.section1{
+    width: 100%;
+    background-image: url('src/Logo_black.png');
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profilepic{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#profilepic img{
+    width: 100%;
+    border: 10px rgb(191, 138, 4) solid;
+    border-radius: 200px;
+}
+#catchphrase{
+    color: black;
+    font-family: lucida sans;
+    text-align: center;
+    margin: auto;
+}
+
+.section1 p{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#socials {
+    width: 200px;
+}
+
+#navsocial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#navsocial img{
+    width: 40px;
+}
+
+footer{
+    background-color: black;
+    font-family: monospace;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 3px;
+    bottom: 0px;
+}
+
+footer strong{
+    color: goldenrod;
+}
+
+}
+
+/*For Mobile*/
+
+@media only screen AND (max-width:480px) {
+
+body{
+    width: 100%;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: goldenrod;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+}
+
+.nav a:active{
+    color: white;
+}
+
+.logo{
+    width: 100px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.titre{
+    font-size: 150%;
+    font-family: monospace;
+    margin-top: 0px;
+}
+
+.section1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profilepic{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+#profilepic img{
+    width: 100%;
+    border: 10px rgb(191, 138, 4) solid;
+    border-radius: 200px;
+}
+
+#catchphrase{
+    color: black;
+    font-family: lucida sans;
+    margin: auto;
+}
+
+.section1 p{
+    font-family: monospace;
+    padding: 10px;
+}
+
+#socials {
+    width: 200px;
+}
+
+#navsocial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#navsocial img{
+    width: 40px;
+}
+
+footer{
+    background-color: black;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    padding: 3px;
+    bottom: 0px;
+}
+
+footer strong{
+    color: goldenrod;
+}
+
+}
